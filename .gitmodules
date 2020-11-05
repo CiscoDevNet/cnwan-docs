@@ -1,0 +1,3 @@
+[submodule "cnwan-docs"]
+	path = cnwan-docs
+	url = https://github.com/CloudNativeSDWAN/cnwan-docs
