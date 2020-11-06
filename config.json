@@ -5,6 +5,10 @@
       "content": "cnwan-docs/README.md"
     },
     {
+      "title": "CNWAN Operator",
+      "content": "cnwan-operator/README.md"
+    },
+    {
       "title": "Resources",
       "items": [
         {
