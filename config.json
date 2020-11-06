@@ -13,8 +13,13 @@
       "title": "Resources",
       "items": [
         {
-          "title": "Github",
+          "title": "GitHub",
           "content": "https://github.com/CloudNativeSDWAN",
+          "type": "url"
+        },
+        {
+          "title": "Docker Hub",
+          "content": "https://hub.docker.com/u/cnwan",
           "type": "url"
         }
       ]
