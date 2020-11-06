@@ -1,13 +1,8 @@
 {
   "items": [
     {
-      "title": "Overview",
-      "items": [
-        {
-          "title": "About",
-          "content": "cnwan-docs/README.md"
-        }
-      ]
+      "title": "About",
+      "content": "cnwan-docs/README.md"
     },
     {
       "title": "Resources",
