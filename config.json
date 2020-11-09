@@ -9,8 +9,24 @@
       "content": "cnwan-operator/README.md",
       "items": [
         {
+          "title": "Quickstart",
+          "content": "cnwan-operator/docs/quickstart.md"
+        },
+        {
           "title": "Concepts",
           "content": "cnwan-operator/docs/concepts.md"
+        },
+        {
+          "title": "Configure the Operator",
+          "content": "cnwan-operator/docs/configuration.md"
+        },
+        {
+          "title": "Basic Installation",
+          "content": "cnwan-operator/docs/basic_installation.md"
+        },
+        {
+          "title": "Advanced Installation",
+          "content": "cnwan-operator/docs/advanced_installation.md"
         }
       ]
     },
