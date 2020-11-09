@@ -39,7 +39,7 @@
           "content": "cnwan-reader/api/README.md",
           "items": [
             {
-              "title": "EventsApi",
+              "title": "\EventsApi",
               "content": "cnwan-reader/api/docs/EventsApi.md"
             },
             {
