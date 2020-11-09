@@ -31,6 +31,46 @@
       ]
     },
     {
+      "title": "CNWAN Reader",
+      "content": "cnwan-reader/README.md",
+      "items": [
+        {
+          "title": "Go API client for openapi",
+          "content": "cnwan-reader/api/README.md",
+          "items": [
+            {
+              "title": "EventsApi",
+              "content": "cnwan-reader/api/docs/EventsApi.md"
+            },
+            {
+              "title": "Errors",
+              "content": "cnwan-reader/api/docs/Errors.md"
+            },
+            {
+              "title": "Event",
+              "content": "cnwan-reader/api/docs/Event.md"
+            },
+            {
+              "title": "Metadata",
+              "content": "cnwan-reader/api/docs/Metadata.md"
+            },
+            {
+              "title": "ResourceResponse",
+              "content": "cnwan-reader/api/docs/ResourceResponse.md"
+            },
+            {
+              "title": "Response",
+              "content": "cnwan-reader/api/docs/Response.md"
+            },
+            {
+              "title": "Service",
+              "content": "cnwan-reader/api/docs/Service.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "title": "Resources",
       "items": [
         {
