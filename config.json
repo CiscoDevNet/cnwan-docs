@@ -71,6 +71,10 @@
       ]
     },
     {
+      "title": "CNWAN Adaptor",
+      "content": "cnwan-adaptor/README.md"
+    },
+    {
       "title": "Resources",
       "items": [
         {
