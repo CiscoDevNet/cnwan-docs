@@ -41,10 +41,10 @@ step by step [quickstart](./docs/quickstart.md) guide.
 
 ## Documentation
 
-* [Concepts](/docs/concepts.md)
-* [Configuration](/docs/configuration.md)
-* [Basic Installation](/docs/basic_installation.md)
-* [Advanced Installation](/docs/advanced_installation.md)
+* [Concepts](./docs/concepts.md)
+* [Configuration](./docs/configuration.md)
+* [Basic Installation](./docs/basic_installation.md)
+* [Advanced Installation](./docs/advanced_installation.md)
 
 ## Contributing
 
