@@ -6,7 +6,13 @@
     },
     {
       "title": "CNWAN Operator",
-      "content": "cnwan-operator/README.md"
+      "content": "cnwan-operator/README.md",
+      "items": [
+        {
+          "title": "Concepts",
+          "content": "cnwan-operator/docs/concepts.md"
+        }
+      ]
     },
     {
       "title": "Resources",
