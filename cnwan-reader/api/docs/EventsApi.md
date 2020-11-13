@@ -1,4 +1,4 @@
-# \EventsApi
+# EventsApi
 
 All URIs are relative to *http://localhost/cnwan*
 
