@@ -1,6 +1,6 @@
 # Cloud Native SD-WAN Documentation
 
-This repository unifies the documentation from the various CNWAN repositories,
+This repository unifies the documentation from the various CN-WAN repositories,
 for the time being the overall architectural documentation and the
 documentation of the three components: the operator, the reader and the
 adaptor.
