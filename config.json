@@ -1,11 +1,11 @@
 {
   "items": [
     {
-      "title": "Cloud-Native SD-WAN (CNWAN) Project",
+      "title": "Cloud-Native SD-WAN (CN-WAN) Project",
       "content": "cnwan-docs/README.md"
     },
     {
-      "title": "CNWAN Operator",
+      "title": "CN-WAN Operator",
       "content": "cnwan-operator/README.md",
       "items": [
         {
@@ -31,7 +31,7 @@
       ]
     },
     {
-      "title": "CNWAN Reader",
+      "title": "CN-WAN Reader",
       "content": "cnwan-reader/README.md",
       "items": [
         {
@@ -71,7 +71,7 @@
       ]
     },
     {
-      "title": "CNWAN Adaptor",
+      "title": "CN-WAN Adaptor",
       "content": "cnwan-adaptor/README.md"
     },
     {
