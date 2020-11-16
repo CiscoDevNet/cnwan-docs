@@ -3,7 +3,7 @@
 The CNWAN Adaptor is part of the Cloud Native SD-WAN (CNWAN) project. Please check the [CNWAN documentation](https://github.com/CloudNativeSDWAN/cnwan-docs) for the general project overview and architecture. You can contact the CNWAN team at [cnwan@cisco.com](mailto:cnwan@cisco.com).
 
 ## Overview
-This CNWAN Adaptor takes as input several cloud parameters, such as endpoint IP and port, and associated metadata (e.g. traffic profiles), and sends them to a SD-WAN controller. The SD-WAN controller implements policies to steer traffic flows for these endpoints to the desired tunnel or apply a SLA on them. On its current iteration the CNWAN Adaptor supports Viptela [vManage](https://developer.cisco.com/docs/sdwan/) as SD-WAN controller. The Adaptor needs valid credentials to connect to the API of the SDWAN controller (user, password, and IP or domain name).
+This CNWAN Adaptor takes as input several cloud parameters, such as endpoint IP and port, and associated metadata (e.g. traffic profiles), and sends them to a SD-WAN controller. The SD-WAN controller implements policies to steer traffic flows for these endpoints to the desired tunnel or apply a SLA on them. On its current iteration the CNWAN Adaptor supports Viptela [vManage](https://developer.cisco.com/docs/sdwan/) as SD-WAN controller. The Adaptor needs valid credentials to connect to the API of the SD-WAN controller (user, password, and IP or domain name).
 
 To see all the possible Adaptor API calls, run the Adaptor as a Docker container (see below) and type [http://localhost:80/ui/](http://localhost:80/ui/) in your browser (if exposing the Adaptor though a port other than 80 via Docker, use the appropiate port instead). In addition, the file [CNWAN Adaptor.postman_collection.json](./CNWAN_Adaptor.postman_collection.json) contains a Postman collection with examples of all the API functions. In particular, the Adaptor provides the `/cnwan/events` API endpoint [http://localhost:80/cnwan/events](http://localhost:80/cnwan/events) for the CNWAN Reader to send events.
 
@@ -24,7 +24,7 @@ docker build -t cnwan_adaptor .
 docker run -p 80:8080 cnwan_adaptor
 ```
 
-It is possible to specify the SDWAN controller credentials through environment variables (instead of via the Adaptor API):
+It is possible to specify the SD-WAN controller credentials through environment variables (instead of via the Adaptor API):
 
 ```bash
 docker run -p 80:8080 \
@@ -41,7 +41,7 @@ If you want a minimal working setup, equivalent to the one used in the [CN-WAN d
 * Install the bash utility `jq`
 * Take a look at the [policies_definition.json](examples/policies_definition.json) file and adapt it to your environment (tunnels, VPNs and deployment sites). The default values will re-create the values used in the KubeCon demo. You can add as many policies and SLAs as you need. In addition, specify the metadata keys and values used by the CNWAN reader. In the KubeCon demo, these were "cnwan.io/traffic-profile=video" and  "cnwan.io/traffic-profile=standard".
 
-## SDWAN controller configuration
+## SD-WAN controller configuration
 
 
 
