@@ -25,12 +25,5 @@ jobs:
           timeout: 60000
           customHeaders: '{"X-Authorization":"Token ${{secrets.pubhub_token}}", "Authorization" : "Bearer ${{fromJson(steps.ciscosso.outputs.response).access_token}}"}'
           method: GET
-
-
-
-
-
-
-           
   
      
