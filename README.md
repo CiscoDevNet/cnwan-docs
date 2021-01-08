@@ -8,7 +8,6 @@ adaptor.
 ## Useful links
 
 - [PubHub Documentation](https://pubhub.cisco.com/preview/579/new/)
-- [Project home on PubHub](https://pubhub.cisco.com/detail/2897/) where it can
-  be previewed and also submitted to go live on DevNet
+- [Project home on PubHub](https://pubhub.cisco.com/detail/2897/) where it can be previewed and also submitted to go live on DevNet
 - [Project preview direct link](https://testing-developer.cisco.com/pubhub/docs/2897/new/)
 
