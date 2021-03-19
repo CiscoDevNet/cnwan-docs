@@ -35,6 +35,22 @@
       "content": "cnwan-reader/README.md",
       "items": [
         {
+          "title": "Installation",
+          "content": "cnwan-reader/docs/installation.md"
+        },
+        {
+          "title": "Usage",
+          "content": "cnwan-reader/docs/usage.md"
+        },
+        {
+          "title": "Docker Installation",
+          "content": "cnwan-reader/docs/docker_installation.md"
+        },
+        {
+          "title": "Docker Usage",
+          "content": "cnwan-reader/docs/docker_usage.md"
+        },
+        {
           "title": "Go API client for openapi",
           "content": "cnwan-reader/api/README.md",
           "items": [
