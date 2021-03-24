@@ -9,10 +9,6 @@
       "content": "cnwan-operator/README.md",
       "items": [
         {
-          "title": "Quickstart",
-          "content": "cnwan-operator/docs/quickstart.md"
-        },
-        {
           "title": "Concepts",
           "content": "cnwan-operator/docs/concepts.md"
         },
@@ -27,6 +23,42 @@
         {
           "title": "Advanced Installation",
           "content": "cnwan-operator/docs/advanced_installation.md"
+        },
+        {
+          "title": "Google Service Directory",
+          "content": "cnwan-operator/docs/gcp_service_directory/concepts.md",
+          "items": [
+            {
+              "title": "Quickstart",
+              "content": "cnwan-operator/docs/gcp_service_directory/quickstart.md"
+            },
+            {
+              "title": "Configuration",
+              "content": "cnwan-operator/docs/gcp_service_directory/configure_with_operator.md"
+            }
+          ]
+        },
+        {
+          "title": "etcd",
+          "content": "cnwan-operator/docs/etcd/concepts.md",
+          "items": [
+            {
+              "title": "Install etcd",
+              "content": "cnwan-operator/docs/etcd/demo_cluster_setup.md"
+            },
+            {
+              "title": "Interact with etcd",
+              "content": "cnwan-operator/docs/etcd/interact.md"
+            },
+            {
+              "title": "Quickstart",
+              "content": "cnwan-operator/docs/etcd/quickstart.md"
+            },
+            {
+              "title": "Configuration",
+              "content": "cnwan-operator/docs/etcd/operator_configuration.md"
+            }
+          ]
         }
       ]
     },
@@ -34,6 +66,22 @@
       "title": "CN-WAN Reader",
       "content": "cnwan-reader/README.md",
       "items": [
+        {
+          "title": "Installation",
+          "content": "cnwan-reader/docs/installation.md"
+        },
+        {
+          "title": "Usage",
+          "content": "cnwan-reader/docs/usage.md"
+        },
+        {
+          "title": "Docker Installation",
+          "content": "cnwan-reader/docs/docker_installation.md"
+        },
+        {
+          "title": "Docker Usage",
+          "content": "cnwan-reader/docs/docker_usage.md"
+        },
         {
           "title": "Go API client for openapi",
           "content": "cnwan-reader/api/README.md",
