@@ -6,7 +6,7 @@ If you want to contribute only to the operator's code or otherwise don't have to
 
 This will require some additional dependencies and a knowledge of [Kustomize](https://kubernetes-sigs.github.io/kustomize/guides/).
 
-If you do want to contribute, please follow [Contributing](../README.MD#contributing) and our [Code of Conduct](../code-of-conduct.md) before doing so.
+If you do want to contribute, please follow [Contributing](../README.md#contributing) and our [Code of Conduct](../code-of-conduct.md) before doing so.
 
 ## Requirements
 
@@ -14,9 +14,16 @@ If you do want to contribute, please follow [Contributing](../README.MD#contribu
 
 You need to have the following:
 
-* access to a Kubernetes cluster running at least version `1.11.3` and [kubeconfig](https://kubernetes.io/docs/tasks/access-application-cluster/configure-access-multiple-clusters/) properly set up
-* a Project in [Google Cloud](https://console.cloud.google.com/) with [Service Directory](https://cloud.google.com/service-directory) enabled
-* a [Google Cloud Service Account](https://cloud.google.com/iam/docs/service-accounts) with at least role `roles/servicedirectory.editor`.
+* access to a Kubernetes cluster running at least version `1.11.3` and [kubeconfig](https://kubernetes.io/docs/tasks/access-application-cluster/configure-access-multiple-clusters/) properly set up.
+
+Depending on the service registry you chose:
+
+* For Google Service Directory:
+  * a Project in [Google Cloud](https://console.cloud.google.com/) with [Service Directory](https://cloud.google.com/service-directory) enabled
+  * a [Google Cloud Service Account](https://cloud.google.com/iam/docs/service-accounts) with at least role `roles/servicedirectory.editor`.
+* For etcd:
+  * a working and reachable etcd cluster, if you don't have any [follow this guide](./etcd/demo_cluster_setup.md)
+  * optional: user credentials for etcd
 
 ### Software
 
@@ -81,6 +88,8 @@ Modify the `kustomization.yaml` file by adding the file you just placed. For exa
 resources:
 - manager.yaml
 - settings.yaml
+
+# Remove this if you're not using servicedirectory
 - serviceHandlerSecret.yaml
 patchesStrategicMerge:
 - patch.yaml
@@ -96,10 +105,11 @@ Before deploying the operator you will need to configure it.
 
 ### Settings
 
-Modify the file `config/manager/settings.yaml` with the appropriate values.  
-You will need to modify what's below `settings.yaml: |` and follow [Configuration](./configuration.md) if you haven't already.
+Modify the file `config/manager/settings.yaml` with the appropriate values. You will need to modify what's below `settings.yaml: |` and follow [Configuration](./configuration.md) if you haven't already.
 
 ### Credentials
+
+*Skip this step if you are not using Google Service Directory.*
 
 Copy the contents of you Service Account and paste to `config/manager/serviceHandlerSecret.yaml` below `gcloud-credentials.json: |-`.
 
