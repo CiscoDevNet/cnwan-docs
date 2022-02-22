@@ -130,4 +130,4 @@ mapping = {
 api.post_mapping(mapping)
 ```
 
-You can find all the library functions in [core_lib.py](adaptor_library/metadata_adaptor/core_lib.py)
+You can find all the library functions in [core_lib.py](https://github.com/CloudNativeSDWAN/cnwan-adaptor/blob/master/adaptor_library/metadata_adaptor/core_lib.py)

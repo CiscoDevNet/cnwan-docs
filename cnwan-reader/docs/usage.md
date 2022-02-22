@@ -81,7 +81,7 @@ For more information about AWS credentials, you may take a look at aws' [documen
 
 ## Configuration File
 
-Optionally, a configuration file can be used, which can be used by providing its path with `--conf`. A [configuration model](../examples/config/config.yaml) is there for you on `examples/config`.
+Optionally, a configuration file can be used, which can be used by providing its path with `--conf`. A [configuration model](https://github.com/CloudNativeSDWAN/cnwan-reader/blob/master/examples/config/config.yaml) is there for you on `examples/config`.
 
 The fields in the YAML file map to each CLI flag specified in the sections above and therefore you won't need to include them if you want to use the default value, i.e. if `pollInterval` is not there, then the default value `5` will be used, as specified in `--help`.
 
