@@ -1,4 +1,7 @@
 {
+  "config": {
+    "useNPS": "ch4bl8pmd1ffn82n3gdg"
+  },
   "items": [
     {
       "title": "Cloud-Native SD-WAN (CN-WAN) Project",
